@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>CTF Challenge Home</h1>
+
+<ul>
+    <li><a href="{{ url_for('challenge', challenge_id=1) }}">Challenge One - The Force</a></li>
+    <li><a href="{{ url_for('challenge', challenge_id=2) }}">Challenge Two - Old School Communication</a></li>
+    <li><a href="{{ url_for('challenge', challenge_id=3) }}">Challenge Three - What Truth at this Table?</a></li>
+    <li><a href="{{ url_for('challenge', challenge_id=4) }}">Challenge Four - Codename: Double-D</a></li>
+
+</ul>
+
+{% endblock %}

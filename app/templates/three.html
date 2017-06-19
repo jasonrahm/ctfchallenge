@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Challenge Three - What Truth at this Table?</h1>
+
+<table width="50%">
+    <tr>
+        <td colspan="2" style="text-align: center; border: 2px solid">Input</td>
+        <td rowspan="2" style="text-align: center; border: 2px solid">Output</td>
+    </tr>
+    <tr>
+        <td style="text-align: center; border: 2px solid">A</td>
+        <td style="text-align: center; border: 2px solid">B</td>
+    </tr>
+    <tr>
+        <td style="text-align: center; border: 2px solid">0</td>
+        <td style="text-align: center; border: 2px solid">0</td>
+        <td style="text-align: center; border: 2px solid">0</td>
+    </tr>
+    <tr>
+        <td style="text-align: center; border: 2px solid">0</td>
+        <td style="text-align: center; border: 2px solid">1</td>
+        <td style="text-align: center; border: 2px solid">1</td>
+    </tr>
+    <tr>
+        <td style="text-align: center; border: 2px solid">1</td>
+        <td style="text-align: center; border: 2px solid">0</td>
+        <td style="text-align: center; border: 2px solid">1</td>
+    </tr>
+    <tr>
+        <td style="text-align: center; border: 2px solid">1</td>
+        <td style="text-align: center; border: 2px solid">1</td>
+        <td style="text-align: center; border: 2px solid">0</td>
+    </tr>
+</table>
+
+<pre>
+    \x05\x01\x00\x10\x039V]ST]FiOWK\\\x0e\x05\n\x07
+    abcdef01234567890abcd
+</pre>
+
+{% endblock %}
