@@ -25,11 +25,6 @@ def challenge(challenge_id):
         return render_template('index.html')
 
 
-@app.route('/challenge/2/details', methods=['GET'])
-def challenge_two_details():
-    return render_template('two_details.html')
-
-
 @app.errorhandler(404)
 def nofile(error):
     return render_template('404.html')
